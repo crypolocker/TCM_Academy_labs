@@ -1,0 +1,26 @@
+This guide is from TCM's academy Linux fundamental course.
+
+Setting up of VMWare.
+Download VMWare - https://broadcom.com
+Download Kali - https://www.kali.org/get-kali/#kali-virtual-machines
+Download 7zip - https://www.7-zip.org/download.html
+
+About Kali:
+Kali Linux is a specialized Linux distribution designed for digital forensics, penetration testing, and ethical hacking purposes. It is a powerful and widely used operating system used by cybersecurity professionals, researchers, and enthusiasts.
+Kali Linux is based on Debian Linux. It provides a comprehensive set of pre-installed tools and software packages specifically tailored for various security testing and hacking purposes.
+The main goal of Kali Linux is to provide a robust and all-in-one platform for performing security assessments, vulnerability analysis, network scanning, password cracking, wireless security testing, and much more. It includes tools for web application testing, reverse engineering, exploit development, and secure communication as well.
+Kali Linux is designed with security in mind and comes with features like full disk encryption, secure shell access, and regular updates to ensure a secure and up-to-date environment for its users.
+While Kali Linux is a powerful tool for security professionals, it is important to use it responsibly and within legal boundaries. Ethical hacking and security testing should always be performed with proper authorization and adherence to applicable laws and regulations.
+
+SUDO Command:
+The sudo command in Linux allows a user with appropriate privileges to execute commands as a superuser or another user. It is commonly used to perform administrative tasks that require elevated privileges. 
+
+Here's an example of how sudo is used:
+Let's say you want to install a software package using the apt package manager, but it requires administrative privileges. You can use sudo to execute the apt command with elevated privileges. Here's the command:
+"sudo apt install <package_name>" 
+
+For instance, if you want to install the package named "nginx" on an Ubuntu system, you can use the following command: "sudo apt install nginx" 
+After running this command, you will be prompted to enter your password. Once you provide the correct password, the command will be executed with superuser privileges, allowing you to install the "nginx" package on the system.
+Please note that the availability and configuration of sudo can vary depending on the Linux distribution and the user's privileges. Additionally, the sudo command can be used for various other administrative tasks, such as editing system files, managing services, and executing critical commands.
+=============
+
